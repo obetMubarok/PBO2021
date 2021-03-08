@@ -1,4 +1,4 @@
-package OBJECT;
+package ENCAPSULATION;
 
 class Siswa{
     private String nama;
