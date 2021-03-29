@@ -1,7 +1,5 @@
 package INHERITANCE;
 
-import KelasK.*;
-
 class Suhu{
     private double nilaiSuhu;
 
