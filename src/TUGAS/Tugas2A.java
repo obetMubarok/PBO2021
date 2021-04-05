@@ -62,5 +62,9 @@ class Kubus extends BangunRuang{
     }
 }
 public class Tugas2A {
-    
+    public static void main(String[] args) {
+        Kubus k1 = new Kubus(5, "Merah");
+        
+        System.out.println(k1.getLuasKubus());
+    }
 }
