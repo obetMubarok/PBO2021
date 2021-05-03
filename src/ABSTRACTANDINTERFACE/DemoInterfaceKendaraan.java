@@ -31,10 +31,13 @@ class Motor implements Kendaraan{
 }
 public class DemoInterfaceKendaraan {
     public static void main(String[] args) {
+        Kendaraan a;
         Mobil m1 = new Mobil();
         Motor mt1 = new Motor();
         
-        mt1.stop();
-        m1.start();
+        a = m1;
+        a.stop();
+        //mt1.stop();
+        //m1.start();
     }
 }
