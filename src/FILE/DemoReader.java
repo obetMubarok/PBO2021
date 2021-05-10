@@ -18,7 +18,7 @@ public class DemoReader {
         //baca 1 baris
         line = read.readLine();
         
-        //pisah menjadi beberapa kata dengan pemisak tanda koma
+        //pisah menjadi beberapa kata dengan pemisahs tanda koma
         daftar = line.split(",");
         
         System.out.println("Nama : "+daftar[0]);
